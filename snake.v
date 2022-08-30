@@ -137,5 +137,5 @@ fn main() {
 		y: rand.intn(height) or { 1 }
 	}
 
-	game.tui.run() ?
+	game.tui.run()?
 }
