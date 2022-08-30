@@ -2,7 +2,7 @@
 
 # Binaries for programs and plugins
 main
-snaking
+snake
 *.exe
 *.exe~
 *.so

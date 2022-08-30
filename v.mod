@@ -1,6 +1,6 @@
 Module {
-	name: 'snaking'
-	description: 'Snake made using Vlang'
+	name: 'snake'
+	description: 'Snake made using V'
 	version: '0.0.0'
 	license: 'MIT'
 	dependencies: []
