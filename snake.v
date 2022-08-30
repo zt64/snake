@@ -5,9 +5,9 @@ import term.ui as tui
 
 struct Game {
 mut:
-	tui       &tui.Context = 0
-	direction Direction    = Direction.right
-	points    []Point      = []Point{len: 5, init: Point{1, 1}}
+	tui       tui.Context
+	direction Direction = Direction.right
+	points    []Point   = []Point{len: 5, init: Point{1, 1}}
 	fruit     Point
 }
 
